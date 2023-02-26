@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+}
+
+header {
+  margin-bottom: 16px;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+header nav ul li a {
+  color: #ff0000;
+  font-size: 19px;
+  text-decoration: none;
+  text-transform: uppercase;
+
+}
+
+.content-wrapper {
+  background-image: url(imgs/bg.png);
+  background-repeat: no-repeat;
+  height: 100%;
+  padding: 0 108px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 140px;
+}
+
+.content-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content-img-skeleton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-img-skeleton img {
+  max-height: 700px;
+}
+
+.logo {
+  max-width: 360px;
+}
+
+.content-info-product {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.content-info-product a img {
+  max-width: 360px;
+  cursor: pointer;
+} 
+
+.content-info-product section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.content-info-product section i {
+  color: #ff0000;
+  border: 1px solid #ff0000;
+  padding: 4px;
+  border-radius: 50%;
+}
+
+.text-product {
+  font-weight: 300;
+  font-size: 16px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.text-product-bypass {
+  font-size: 68px;
+  color: #FFF;
+  text-transform: uppercase;
+}
+
+.text-product-100 {
+  color: #FFF;
+  text-transform: uppercase;
+  border-bottom: 3px solid #ff0000;
+  margin: 0;
+  padding: 0;
+  font-size: 60px;
+  max-width: max-content;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  text-align: center;
+  color: #FFF;
+  font-weight: 300;
+  border-bottom: 3px solid #ff0000;
+  margin-top: -50px;
+}
+
+footer span {
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 10px) and (max-width: 1070px)  {
+  .content-wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 24px;
+  }
+
+  .content-img-skeleton img {
+    display: none;
+  }
+
+  footer {
+    padding: 0 30px;
+  }
+
+  footer p {
+    border-bottom: none;
+    margin-top: -100px;
+  }
+}
