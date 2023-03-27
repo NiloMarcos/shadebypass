@@ -3,7 +3,7 @@
 <!-- Getting Started -->
 # Sobre o projeto
 LP desenvolvida para uma loja do discord onde vende produtos para um jogo específico, a LP consiste em informações do produto e o link para a compra direto no discord.
-<a href="https://shadebypass.xyz/">Visitar o site</a>
+<a href="https://shadebypass.xyz/" target="_blanck">Visitar o site</a>
 
 ### INICIANDO O PROJETO
 
